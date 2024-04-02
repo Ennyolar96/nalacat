@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "THVjallcRHdXktUmVndWxhcidGY";
+  src: url("https://w.ladicdn.com/5b52e9ea61c3fe3313704bb1/luckiestguy-regular-20230307085756-x-s_t.ttf")
+    format("truetype");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+      90deg,
+      rgba(11, 14, 59, 0.5),
+      rgba(11, 14, 59, 0.5),
+      rgba(11, 14, 59, 0.5)
+    ),
+    url("./assets/nala2.jpeg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+nav {
+  background: #114 !important;
+  color: white;
+  border-bottom: 4px solid #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-family: "Paytone One", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.banner-container img {
+  width: 80px;
+  border: 6px solid #fff;
+  border-radius: 100%;
+}
+
+.banner-container a {
+  color: #fff !important;
+  font-family: "Paytone One", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.navbar-toggler {
+  background: #fff;
+  color: #114;
+}
+
+.firstSection {
+  height: 100dvh;
+  padding: 20px 0;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.firstSection h1 {
+  text-transform: uppercase;
+  font-family: "Paytone One", sans-serif;
+  font-size: 4rem;
+}
+
+.firstSection p {
+  font-family: THVjallcRHdXktUmVndWxhcidGY;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.firstSection img {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+
+  @media screen and (width <= 500px) {
+    height: 400px;
+  }
+}
+
+.secondSecond {
+  background: #114;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.token {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  @media screen and (width <= 500px) {
+    width: 100%;
+  }
+}
+
+.token h3,
+.road h3 {
+  font-family: "Paytone One", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  @media screen and (width <= 500px) {
+    font-size: 3rem;
+  }
+}
+
+.token p,
+.taxes p {
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.secondSection h5,
+.secondP {
+  font-family: "Paytone One", sans-serif;
+  font-size: 2rem;
+}
+.secondP {
+  font-size: 1.8rem;
+}
+.taxes {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 25px;
+  border: 2px solid #fff;
+  border-radius: 0 30px 0 30px;
+}
+
+.taxes h4 {
+  font-family: "Paytone One", sans-serif;
+  font-size: 1.5rem;
+}
+
+.image {
+  margin-top: 50px;
+}
+
+.secondSecond img {
+  width: 70%;
+  height: 70%;
+  border-radius: 100%;
+  border: 10px solid #fff;
+  display: flex;
+  margin: 0 auto;
+
+  @media screen and (width <= 500px) {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.road {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  @media screen and (width <= 900px) {
+    width: 70%;
+  }
+
+  @media screen and (width <= 500px) {
+    width: 100%;
+  }
+}
+
+.roadmap {
+  background: rgba(11, 14, 59, 0.7);
+  text-align: left;
+  padding: 20px;
+  border-radius: 0 30px 0 30px;
+  border: 3px solid #fff;
+  font-family: "Paytone One", sans-serif;
+  font-size: 2rem;
+  line-height: 30px;
+  margin: 30px 0;
+  @media screen and (width <= 500px) {
+    font-size: 1.5rem;
+  }
+}
+
+.roadmap_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+  @media screen and (width <= 500px) {
+    width: 100%;
+  }
+}
+
+.thirdSection {
+  padding: 20px;
+}
+
+.phase h5 {
+  font-family: "Paytone One", sans-serif;
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.phase {
+  background: rgba(11, 14, 59, 0.7);
+  text-align: left;
+  padding: 20px;
+  border-radius: 0 30px 0 30px;
+  border: 3px solid #fff;
+  font-size: 1rem;
+  width: 70%;
+  font-weight: 600;
+  margin: 30px 0;
+  height: 90%;
+  @media screen and (width <= 500px) {
+    width: 100%;
+  }
+}
