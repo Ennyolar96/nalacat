@@ -24,9 +24,10 @@ body {
   scroll-behavior: smooth;
   color: white;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
-body {
+.overall {
   position: relative;
   overflow-x: hidden;
 }
@@ -93,10 +94,6 @@ nav {
   width: 100%;
   height: 500px;
   border-radius: 10px;
-
-  @media screen and (width <= 500px) {
-    height: 400px;
-  }
 }
 
 .secondSecond {
@@ -112,9 +109,6 @@ nav {
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  @media screen and (width <= 500px) {
-    width: 100%;
-  }
 }
 
 .token h3,
@@ -122,9 +116,6 @@ nav {
   font-family: "Paytone One", sans-serif;
   text-transform: uppercase;
   font-size: 5rem;
-  @media screen and (width <= 500px) {
-    font-size: 3rem;
-  }
 }
 
 .token p,
@@ -167,11 +158,6 @@ nav {
   border: 10px solid #fff;
   display: flex;
   margin: 0 auto;
-
-  @media screen and (width <= 500px) {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 .road {
@@ -181,13 +167,6 @@ nav {
   width: 40%;
   margin: 0 auto;
   text-align: center;
-  @media screen and (width <= 900px) {
-    width: 70%;
-  }
-
-  @media screen and (width <= 500px) {
-    width: 100%;
-  }
 }
 
 .roadmap {
@@ -200,9 +179,6 @@ nav {
   font-size: 2rem;
   line-height: 30px;
   margin: 30px 0;
-  @media screen and (width <= 500px) {
-    font-size: 1.5rem;
-  }
 }
 
 .roadmap_text {
@@ -214,9 +190,6 @@ nav {
   text-align: center;
   font-weight: 600;
   font-size: 1.3rem;
-  @media screen and (width <= 500px) {
-    width: 100%;
-  }
 }
 
 .thirdSection {
@@ -240,7 +213,71 @@ nav {
   font-weight: 600;
   margin: 30px 0;
   height: 90%;
-  @media screen and (width <= 500px) {
+}
+
+@media screen and (width <= 900px) {
+  .firstSection img {
+    height: 350px;
+  }
+  .road {
+    width: 70%;
+  }
+  .token {
     width: 100%;
+  }
+}
+
+@media screen and (width <= 700px) {
+  .firstSection img {
+    height: 400px;
+  }
+
+  .token {
+    width: 100%;
+  }
+  .token h3,
+  .road h3 {
+    font-size: 3rem;
+  }
+  .secondSecond img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .road {
+    width: 100%;
+  }
+
+  .roadmap {
+    font-size: 1.5rem;
+  }
+
+  .roadmap_text {
+    width: 100%;
+  }
+
+  .phase {
+    width: 100%;
+  }
+}
+
+@media screen and (width <= 400px) {
+  .firstSection img {
+    height: 300px;
+  }
+
+  .token p,
+  .taxes p {
+    font-size: 0.9rem;
+    text-wrap: balance;
+  }
+
+  .roadmap {
+    font-size: 1.5rem;
+  }
+
+  .roadmap_text {
+    font-size: 1rem;
+    font-weight: 600;
   }
 }
