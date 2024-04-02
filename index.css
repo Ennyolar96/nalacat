@@ -64,8 +64,12 @@ nav {
 }
 
 .firstSection {
+  width: 100%;
   height: 100dvh;
   padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .first {
@@ -74,6 +78,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-bottom: 80px;
 }
 
 .firstSection h1 {
